@@ -1,0 +1,37 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python caches, test output, and notebook checkpoints
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# Editor and operating-system files
+.vscode/
+Documents.code-workspace
+.DS_Store
+Thumbs.db
+
+# Raw CTU-13 data and local archive (not distributed with this repository)
+CTU-13/
+CTU-13-Dataset.tar.bz2
+data/CTU-13/
+
+# Large, reproducible generated data and serialized models
+data/*.csv
+data/*.parquet
+data/*.feather
+data/*.pkl
+data/*.joblib
+results/*.pkl
+results/*.joblib
+results/*.onnx
+
+# Streamlit local configuration
+.streamlit/secrets.toml
